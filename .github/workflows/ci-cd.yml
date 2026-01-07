@@ -22,7 +22,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt  # Устанавливаем зависимости из requirements.txt
+        pip install -r backend/requirements.txt  # Устанавливаем зависимости из requirements.txt
 
     - name: Run code
       run: |
